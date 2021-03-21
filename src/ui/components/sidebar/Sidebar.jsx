@@ -12,9 +12,9 @@ const _Sidebar = (props) => {
         onClose={props.onClose}
         visible={props.visible}
       >
-        <p>Some contents...</p>
-        <p>Some contents...</p>
-        <p>Some contents...</p>
+        <p>Menu 1...</p>
+        <p>Menu 2...</p>
+        <p>Menu 3...</p>
       </Drawer>
     </>
   );
