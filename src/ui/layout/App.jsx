@@ -24,9 +24,9 @@ const App = () => {
         <Header showDrawer={showDrawer}/>
         <Content style={{ padding: '0 50px' }}>
         <Breadcrumb style={{ margin: '16px 0' }}>
-            <Breadcrumb.Item>Home</Breadcrumb.Item>
-            <Breadcrumb.Item>List</Breadcrumb.Item>
-            <Breadcrumb.Item>App</Breadcrumb.Item>
+            <Breadcrumb.Item>Menu A</Breadcrumb.Item>
+            <Breadcrumb.Item>Menu B</Breadcrumb.Item>
+            <Breadcrumb.Item>Menu C</Breadcrumb.Item>
         </Breadcrumb>
         <div className="site-layout-content">Content</div>
         </Content>
