@@ -12,7 +12,7 @@ const HomeContainer = (props) =>{
     }
 
     return <div>
-                Ya wazza wini Eline !! {count} <br></br>
+                Augmenter + 1{count} <br></br>
                 <Button 
                     disabled={false}
                     size="large"
