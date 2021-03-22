@@ -2,7 +2,7 @@ import { Lib } from '../../lib';
 import React, { useState } from 'react';
 
 import { Layout, Breadcrumb } from 'antd';
-const { Header, Sidebar } = Lib.getComponents()
+const { Header, Sidebar, Home } = Lib.getComponents()
 const { Content } = Layout;
 
 const App = () => {
@@ -28,7 +28,10 @@ const App = () => {
             <Breadcrumb.Item>Menu B</Breadcrumb.Item>
             <Breadcrumb.Item>Menu C</Breadcrumb.Item>
         </Breadcrumb>
-        <div className="site-layout-content">Content</div>
+        <div className="site-layout-content">
+          Content Here
+          <Home test={()=> alert('Ch7alek ?')} />
+        </div>
         </Content>
     </Layout>
   </>
